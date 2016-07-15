@@ -1,0 +1,52 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+.header{
+  background-color: #2b90d9;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.form_container{
+  background-color: #F16B6F;
+  padding: 2em;
+  color: white;
+  border-radius: 10px;
+}
+
+.loader{
+  text-align: center;
+}
+
+.cargando{
+  color: rgba(62, 54, 54, 0.7);
+  font-size: 2em;
+}
+
+.answer{
+  text-align: center;
+  padding: 20px;
+  background-color: #30A9DE;
+  color: white;
+  margin: 10px;
+  display: none;
+  font-size: 1.2em;
+}
+
+.error{
+  text-align: center;
+  padding: 20px;
+  background-color: #e74c3c;
+  color: white;
+  margin: 10px;
+  display: none;
+}

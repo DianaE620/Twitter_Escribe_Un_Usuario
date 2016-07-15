@@ -1,0 +1,30 @@
+    <br><br>
+
+  <a href="/tweet">Crea un tweet</a>
+  <br><br>
+
+  <form class="form_container" id="tweets">
+    Busca los tweets de un usuario: &nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="tweet">
+
+    <button>Enviar</button>
+  </form>
+
+
+<% if @error %>
+<br>
+<div style="color:red">Usuario no encontrado verifica tu busqueda</div>
+<% end %>
+
+<br><br>
+<div class="loader"> 
+<img src="img/Preloader_3.gif">
+<br>
+<span class="cargando">Cargando ...</span>
+<br>
+</div>
+<div class="tweet_list">
+  <ol id="insert">
+
+  </ol>
+</div>

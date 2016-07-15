@@ -1,0 +1,9 @@
+  <br><br>
+  <ol>
+  <% @user_tweets.each do |t| %>
+    <li> <%= t.content %> </li>
+    <br>
+  <% end %>
+  </ol>
+
+  <a href="/">Regresar al buscador</a>
